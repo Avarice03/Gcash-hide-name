@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gcash Hide Name</title>
+    <link rel="stylesheet" href="./assets/stylesheet/style.css">
+    <script src="./assets/script/script.js" defer></script>
+</head>
+<body>
+    <div class="grid-container">
+        <header>
+            <h2>Express Send</h2>
+        </header>
+        <div id="top-content">
+            <img src="./assets/images/fox.png" alt="a picture of a cute fox">
+            <label class="output-name" id="displayName">Your name here</label>
+        </div>
+        <main>
+            <h2>Enter customer's full name:</h2>
+            <div class="input-container">
+                <form>
+                    <input type="text" id="textInput"/>
+                    <div class="subtext">*Enter letters only</div>
+                    <input type="button" value="Submit" id = "submit-button" onclick="hideName()"/>
+                    <input type="button" value="Clear" id = "clear-button" onclick="clearName()"/>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
